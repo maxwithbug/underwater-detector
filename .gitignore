@@ -1,0 +1,78 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API keys and credentials
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Virtual environments
+venv/
+venv311/
+.venv
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model and data files
+*.pkl
+*.pth
+*.h5
+*.model
+*.weights
+*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ignore image files globally
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+//avoid committing sensitive files and directories for huge datasets and models
+env311/
+__pycache__/
+*.h5
+*.keras
+*.pyc
+.DS_Store
+EOF
